@@ -1,0 +1,89 @@
+<html>
+<head>
+<style>
+ *{
+     margin: 0px;
+     padding: 0px;
+}   
+body{
+    background-color: #5D6D7E;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+#container ul {
+    list-style: none;
+}
+
+
+#container ul li{
+    background-color: transparent;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 0px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 19px;
+    position: relative;
+}
+
+
+#container ul li:hover{
+    background-color: #85C1E9;
+}
+
+#container ul ul{
+    display: none;
+}
+
+#container ul li:hover > ul{
+    display: block;
+}
+
+#container ul ul ul{
+    margin-left: 150px;
+    top: 0px;
+    position: absolute;
+}
+
+
+
+</style>
+<title>Dropdown Menu Design</title>
+
+</head>
+
+<body>
+<div id="container">
+<ul>
+    <li>Home</li>   
+    <li>Services
+        <ul>
+            <li>Web Design</li>
+            <li>Mobile App
+            <ul> 
+                <li>iOS App</li>
+                <li>Android</li>
+                <li>Windows</li>
+            </ul>
+            <li>Advertising</li>
+    
+        </ul>
+            <li>Blog</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+</ul>
+
+</div>
+
+
+</body>
+
+
+
+
+
+</html>
